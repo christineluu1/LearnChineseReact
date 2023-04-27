@@ -1,1 +1,3 @@
 # LearnChineseReact
+
+npm run dev 

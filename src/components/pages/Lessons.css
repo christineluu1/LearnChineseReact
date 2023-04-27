@@ -1,0 +1,75 @@
+/* lessonsStyles.css */
+
+.lessons-container {
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .lessons-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .lessons-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .lessons-buttons-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .lessons-button-group {
+    margin-right: 1rem;
+  }
+  
+  .lessons-button-group-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .lessons-button {
+    display: block;
+    margin-bottom: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #00BAC3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lessons-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+.exam-preparation-container {
+    margin-top: 2rem;
+  }
+  
+  .exam-preparation-button {
+    display: block;
+    margin-bottom: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #00BAC3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exam-preparation-button:hover {
+    background-color: #0056b3;
+  }
+  

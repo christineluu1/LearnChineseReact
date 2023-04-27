@@ -1,0 +1,68 @@
+.exercise-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color:white;
+  }
+
+  .exercise2-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .sentence-container {
+    margin-top: 40px;
+  }
+  
+  .blank {
+    color: red;
+  }
+  
+  .choices-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .choice {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .choice:hover {
+    background-color: #eee;
+  }
+  
+  .selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #finish-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #result-container {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .choice.selected {
+    background-color: #007bff;
+  }

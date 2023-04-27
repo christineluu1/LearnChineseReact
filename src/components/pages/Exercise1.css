@@ -1,0 +1,73 @@
+/* exercise1.css */
+
+.exercise1-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .exercise1-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+  
+  .exercise1-form {
+    margin-bottom: 2rem;
+    margin: 20px;
+    
+  }
+  
+  .exercise1-question {
+    margin-bottom: 4rem;
+  }
+  
+  .exercise1-question-text {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .exercise1-option {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .exercise1-submit-btn {
+    display: block;
+    margin:  auto;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exercise1-submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .exercise1-recap {
+    margin-bottom: 2rem;
+  }
+  
+  .exercise1-recap-item {
+    margin-bottom: 2rem;
+  }
+  
+  .exercise1-recap-item p {
+    font-size: 18px;
+  }
+  
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+  }
+  

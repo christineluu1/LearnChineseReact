@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import './Lessons.css'; // Import the CSS file
+import './Articles.css'; // Import the CSS file
 
 const Exercises = () => {
   return (

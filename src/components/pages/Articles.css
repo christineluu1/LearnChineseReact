@@ -9,11 +9,13 @@
   .lessons-title {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: rgb(0, 83, 0);
   }
   
   .lessons-description {
     font-size: 1rem;
     margin-bottom: 2rem;
+    color: rgb(5, 108, 5);
   }
   
   .lessons-buttons-container {
@@ -36,7 +38,7 @@
     padding: 1rem 2rem;
     font-size: 1rem;
     text-align: center;
-    background-color: #00BAC3;
+    background-color: #084a27;
     color: #fff;
     border: none;
     border-radius: 4px;

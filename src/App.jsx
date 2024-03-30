@@ -4,8 +4,9 @@ import styles from "./style";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
+import './index.css'
 
-import Lessons from "./components/pages/Lessons";
+import Articles from "./components/pages/Articles";
 import Exercises from "./components/pages/Exercises";
 import AboutUs from "./components/pages/AboutUs";
 import Course1 from "./components/pages/Course1";
@@ -29,14 +30,12 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/home" element={<Hero />} />
-            <Route path="/lessons" element={<Lessons />} />
+            <Route path="/articles" element={<Articles />} />
             <Route path="/exercises" element={<Exercises />} />
             <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/lessons/course1" element={<Course1 />} />
-            <Route path="/lessons/course2" element={<Course2 />} />
-            <Route path="/lessons/course3" element={<Course3 />} />
-            <Route path="/lessons/exercise1" element={<Exercise1 />} />
-            <Route path="/lessons/exercise2" element={<Exercise2 />} />
+            <Route path="/articles/course1" element={<Course1 />} />
+            <Route path="/articles/course2" element={<Course2 />} />
+            <Route path="/articles/course3" element={<Course3 />} />
           </Routes>
         </div>
       </div>

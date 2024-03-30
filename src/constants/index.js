@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
+import { facebook, instagram, linkedin, twitter, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
@@ -6,16 +6,16 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "lessons",
-    title: "Lessons",
+    id: "articles",
+    title: "Articles",
   },
   {
     id: "exercises",
-    title: "Exercises",
+    title: "Chatbot",
   },
   {
     id: "about-us",
-    title: "About Us",
+    title: "Profile",
   },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-2",
     icon: star,
-    title: "100% success rate at the exam",
+    title: "100% of the users find ChatMoody useful",
     content:
-      "The best courses and exercises content you can find online for free.",
+      "Not only a chatbot but ChatMoody collect your replies to redirect you to specialist and get help.",
   },
   {
     id: "feature-1",
     icon: shield,
-    title: "100% clients satisfied",
+    title: "Partnership with expert in health care",
     content:
-      "We take care of our student and we always keep updated our website.",
+      "We work closely with doctors and psychologist to assist you in the best and healthy way possible.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "We take feedback",
     content:
-      "Your opinion is important to us. Feel free to give us your feedback.",
+      "We are in a constant progress mode. Feel free to give us your feedback so ChatMoody can be 100% reliable.",
   },
 ];
 

@@ -10,8 +10,8 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Learn <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Chinese</span>{" "}
+            Chatmoody <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">Your virtual friend for a happier mind</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
@@ -23,15 +23,16 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Prepare your HSK.
+        <h1 className="font-poppins font-semibold ss:text-[38px] text-[32px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+          Mental health care
         </h1>
         <p className={`${styles.paragraph} max-w-[100%] mt-10`}>
-        Discover the beauty and complexity of the Chinese language with our comprehensive learning program. 
-        Whether you're a beginner or an advanced learner, our experienced instructors will guide you through every step of the way. 
-        With interactive lessons, personalized feedback, and engaging cultural activities, 
-        you'll be speaking, reading, and writing Chinese in no time. 
-        Start your journey today and immerse yourself in the fascinating world of Chinese language and culture.
+        In the fast-paced world we live in, mental health has become an increasingly important aspect of overall well-being. 
+        Amidst the hustle and bustle of everyday life, many individuals find it challenging to prioritize their mental health needs. 
+        This is where virtual assistants dedicated to mental health care step in as invaluable resources.
+        Imagine having a supportive companion at your fingertips, available whenever you need guidance, comfort, or simply someone to listen. 
+        Virtual assistants for mental health care offer precisely that and more. 
+        
         </p>
         
       </div>
